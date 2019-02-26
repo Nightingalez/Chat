@@ -1,0 +1,1 @@
+int sockfd = socket(domain, type, protocol)
