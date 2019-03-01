@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## PCSS mini-project (February, 2019)
 
-You can use the [editor on GitHub](https://github.com/Nightingalez/Chat/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Group Members:
+```markdown
+• Victor Bogdan Emil Rouă
+• Marc Gourvan Haagensen
 
 ```markdown
 Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+This third semester Medialogy mini-project for the Programming of Complex Software Systems
+course is a functional chat system programmed in C++ using the CodeBlocks and Visual
+Studio IDEs. For this application, networking, multithreading, and sockets were mandatory
+concepts that had been successfully implemented in the code.
 
-### Jekyll Themes
+Therefore, this chat system consists of a client and a server. The files for both the client and the
+server have the .cpp extension. However, in order to set up both the server and the client to
+run properly, the user must firstly open the server.sln file and then the client.sln file. By opening
+the .sln files in the first place the user will enable the chat system to run as intended.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Nightingalez/Chat/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The program will as such appear running on two separate windows, one for the client and the
+other for the server, with users being able to write messages to one another and read the entire
+history of their conversation.
